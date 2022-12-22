@@ -5,7 +5,7 @@ LOCALE = "en-US"
 NIGHTS_FROM = 7
 NIGHTS_TO = 28
 TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
-TEQUILA_API_KEY = "wHPg0Aw2ngTFWRVQBGpQKqpAIBg-REj5"
+TEQUILA_API_KEY = "wHPg0Aw2ngTFWRVQBGpQK***g-REj5" #use your account key
 CURRENCY = "INR"
 MAX_STOPOVERS = 1
 
