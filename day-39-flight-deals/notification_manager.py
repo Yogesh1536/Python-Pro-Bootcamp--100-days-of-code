@@ -1,8 +1,8 @@
 from twilio.rest import Client
 from twilio.base.exceptions import TwilioRestException
 
-TWILIO_SID = "AC0a94f226912db29d1087ab9fe278634f"
-TWILIO_TOKEN = "2f1a87856d36637f11e32946b9de5b72"
+TWILIO_SID = "AC0a94f226912db29dfe278634f" #use your ID
+TWILIO_TOKEN = "2f1a87856d366376b9de5b72" #use your token
 
 
 class NotificationManager:
