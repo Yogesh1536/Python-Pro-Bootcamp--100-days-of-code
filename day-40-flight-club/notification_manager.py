@@ -3,8 +3,8 @@ from twilio.base.exceptions import TwilioRestException
 import smtplib
 import ssl
 
-TWILIO_SID = "AC0a94f226912db29d1087ab9fe278634f"
-TWILIO_TOKEN = "2f1a87856d36637f11e32946b9de5b72"
+TWILIO_SID = "AC0a94f226912db*********ab9fe278634f"
+TWILIO_TOKEN = "2f1a87856d*********6b9de5b72"
 
 
 class NotificationManager:
@@ -13,7 +13,7 @@ class NotificationManager:
         self.client = Client(TWILIO_SID, TWILIO_TOKEN)
         self.sender = "Flight Club"
         self.my_email = "yogeshs15101999@gmail.com"
-        self.password = "whptbcumuoafzwkj"
+        self.password = "whp*********kj"
 
     def send_sms(self, flight):
         """Takes a flight object and sends the details as an SMS to the defined number."""
